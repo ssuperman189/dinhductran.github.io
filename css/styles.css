@@ -1,0 +1,154 @@
+.left-col {
+  background: #003170;
+
+}
+.right-col {
+  background: #75e3dd;
+}
+img {
+  max-width: 100%;
+
+}
+footer {
+  background: #f4979c;
+  min-height: 220px;
+  background-image: url('../img/socialmedia.svg');
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  background-color: #f4979c;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.social-icons {
+  height: 60px;
+  margin: 10px 20px;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+}
+html {
+  height: 100%;
+}
+.social-container {
+  text-align: center;
+}
+.navigation li {
+  display: inline-block;
+  margin: 0 15px;
+  color: #20c4bb;
+}
+.navigation {
+  text-align: center;
+}
+nav {
+  position: fixed;
+  z-index:100;
+  left: 0;
+  right: 0;
+  font-family: 'Prata', serif;
+  font-size: 22px;
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Prata', serif;
+}
+h1 {
+  font-size: 150px;
+  font-weight: normal;
+  margin: 0;
+}
+.left-col, .right-col {
+  color:white;
+  text-align: center;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.instruction {
+  color: #2864b1;
+  text-align: center;
+}
+h2 {
+  font-size: 100px;
+}
+.works h2 {
+  color: #41ccc4;
+}
+.myteam h2 {
+  color: #003170;
+}
+.contact h2 {
+  color: #f3747b;
+}
+h3 {
+  font-size: 50px;
+}
+.works h3 {
+  color: #16736e;
+}
+.myteam h3 {
+  color: #306fbf;
+  margin: 0 0 90px 0;
+  line-height: 100%;
+}
+h4 {
+  font-size: 32px;
+  color: #16736e;
+  background-color: #75e3dd;
+  display: inline-block;
+  margin:0;
+  padding: 4px;
+  position: absolute;
+}
+a {
+  color: #20c4bb;
+  letter-spacing: 2px;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover{
+  text-decoration: underline;
+}
+.works {
+  color: #16736e;
+}
+.top-container {
+  width: 500px;
+  margin: 0 auto;
+  padding:
+}
+.work-img {
+  position: relative;
+width: 100%;
+}
+.works h4 {
+  position: absolute;
+  z-index: 1;
+  top: -25px;
+}
+.extra-gutters {
+  padding: 0 60px;
+}
+.right-aligned {
+  text-align: right;
+}
+.right-align {
+  right: 0;
+}
+.img-margin {
+  margin-bottom: 60px;
+}
+.navi:hover  {
+  text-decoration: none;
+}
+.navi {
+  font-size: 25px;
+  font-weight: normal;
+  letter-spacing: normal;
+}
